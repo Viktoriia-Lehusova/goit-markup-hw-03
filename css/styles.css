@@ -1,0 +1,237 @@
+:root {
+  --background-color: #ffffff;
+  --main-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-text-color: #757575;
+  --footer-color: #2f303a;
+  --team-bg-color: #f5f4fa;
+  --white-rgba-color: rgba(255, 255, 255, 0.6);
+  --black-color: #000000;
+  --main-font: Roboto, sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+
+  font-family: var(--main-font);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.list {
+  list-style: none;
+}
+/* logo */
+.logo {
+  color: var(--main-text-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--main-text-color);
+}
+.part-logo {
+  color: var(--background-color);
+
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.part-logo:hover,
+.part-logo:focus {
+  color: var(--background-color);
+}
+
+.side-logo {
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.side-logo:hover,
+.side-logo:focus {
+  color: var(--accent-color);
+}
+
+/* nav */
+.site-nav .link {
+  color: var(--main-text-color);
+
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.auth-nav .link {
+  color: var(--secondary-text-color);
+
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*hero*/
+.hero-title {
+  color: var(--background-color);
+  letter-spacing: 0.06em;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero {
+  background-color: var(--footer-color);
+}
+
+/* features */
+.features-text {
+  color: var(--secondary-text-color);
+
+  line-height: 1.71;
+}
+
+.features-subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* work */
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* team */
+.team {
+  background-color: var(--team-bg-color);
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-text {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* portfolio */
+.portfolio-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
+.portfolio-subtitle {
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.title-part {
+  text-transform: uppercase;
+}
+/* button */
+.button {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+
+  font-family: inherit;
+  cursor: pointer;
+}
+.button.primary {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button.primary:hover,
+.button.primary:focus {
+  background: #188ce8;
+}
+.button.secondary {
+  color: var(--main-text-color);
+  background-color: var(--team-bg-color);
+
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--accent-color);
+}
+/* footer */
+.footer {
+  background-color: var(--footer-color);
+}
+
+.adress {
+  color: var(--background-color);
+
+  font-weight: 400;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.second-link {
+  color: var(--white-rgba-color);
+
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.second-link:hover,
+.second-link:focus {
+  color: var(--accent-color);
+}
