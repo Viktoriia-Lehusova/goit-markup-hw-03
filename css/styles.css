@@ -18,8 +18,18 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
+.container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline-style: dashed;
+}
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 /* logo */
 .logo {
@@ -37,12 +47,15 @@ body {
 }
 .part-logo {
   color: var(--background-color);
+  display: inline-block;
 
   font-family: Raleway, sans-serif;
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  margin-bottom: 20px;
 }
 
 .part-logo:hover,
@@ -101,21 +114,36 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   text-transform: uppercase;
+
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 .hero {
   background-color: var(--footer-color);
+  text-align: center;
 }
 
 /* features */
+.hero,
+.features,
+.work {
+  margin-bottom: 94px;
+}
 .features-text {
   color: var(--secondary-text-color);
 
   line-height: 1.71;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .features-subtitle {
+  margin-top: 0px;
+  margin-bottom: 10px;
+
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -140,16 +168,26 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 /* team */
 .team {
   background-color: var(--team-bg-color);
+
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 .team-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .team-text {
@@ -158,6 +196,21 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.img {
+  margin-bottom: 30px;
+}
+.img-bg {
+  background: var(--background-color);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  padding-bottom: 30px;
 }
 
 /* portfolio */
@@ -184,6 +237,12 @@ body {
   cursor: pointer;
 }
 .button.primary {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  padding: 10px 32px;
+  min-width: 216px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -212,6 +271,9 @@ body {
 /* footer */
 .footer {
   background-color: var(--footer-color);
+
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .adress {
@@ -221,6 +283,9 @@ body {
   line-height: 1.71;
   text-decoration: none;
   font-style: normal;
+
+  display: inline-block;
+  margin-bottom: 9px;
 }
 
 .second-link {
@@ -230,6 +295,10 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+.second-link.mail {
+  display: inline-block;
+  margin-bottom: 9px;
 }
 .second-link:hover,
 .second-link:focus {
