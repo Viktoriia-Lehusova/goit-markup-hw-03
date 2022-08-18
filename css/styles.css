@@ -345,7 +345,6 @@ body {
   margin-bottom: 30px;
 
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
@@ -354,7 +353,6 @@ body {
   margin-bottom: 0;
 }
 .portfolio-img {
-  margin-bottom: 20px;
   display: block;
   max-width: 100%;
   height: auto;
@@ -369,6 +367,9 @@ body {
 }
 .text-group {
   padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .portfolio-subtitle {
   letter-spacing: 0.06em;
