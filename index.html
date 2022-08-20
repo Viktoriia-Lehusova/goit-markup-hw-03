@@ -22,7 +22,7 @@
     <header class="header">
       <div class="container navigation">
         <a href="./index.html" lang="en" class="logo"> <span class="side-logo">Web</span>Studio </a>
-        <nav>
+        <nav class="nav">
           <ul class="site-nav list">
             <li class="item"><a href="" class="link current">Студія</a></li>
             <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
@@ -41,11 +41,10 @@
     <main>
       <!-- Шапка -->
       <section class="hero">
-        <h1 class="hero-title">
-          Ефективні рішення для <br />
-          вашого бізнесу
-        </h1>
-        <button type="button" class="button primary">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="button primary">Замовити послугу</button>
+        </div>
       </section>
 
       <!-- особливості -->
@@ -82,7 +81,7 @@
       </section>
 
       <!-- чим займаємось -->
-      <section class="work">
+      <section class="work section">
         <div class="container">
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="list work-list">
@@ -115,7 +114,7 @@
       </section>
 
       <!-- команда -->
-      <section class="team">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="list team-list">
@@ -126,8 +125,10 @@
                 alt="чоловік  в окулярах з бородою в коричневій сорочці на білому фоні"
                 width="270"
               />
-              <h3 class="team-subtitle">Ігор Дем'яненко</h3>
-              <p lang="en" class="team-text">Product Designer</p>
+              <div class="team-container">
+                <h3 class="team-subtitle">Ігор Дем'яненко</h3>
+                <p lang="en" class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -136,8 +137,10 @@
                 alt="жінка блондинка в окулярах в чорному піджаку "
                 width="270"
               />
-              <h3 class="team-subtitle">Ольга Рєпіна</h3>
-              <p lang="en" class="team-text">Frontend Developer</p>
+              <div class="team-container">
+                <h3 class="team-subtitle">Ольга Рєпіна</h3>
+                <p lang="en" class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -146,8 +149,10 @@
                 alt="чоловік в світло блакитній сорочці на білому фоні"
                 width="270"
               />
-              <h3 class="team-subtitle">Микола Тарасов</h3>
-              <p lang="en" class="team-text">Marketing</p>
+              <div class="team-container">
+                <h3 class="team-subtitle">Микола Тарасов</h3>
+                <p lang="en" class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -156,8 +161,10 @@
                 alt="чоловік в окулярах з бородою в чорній футболці"
                 width="270"
               />
-              <h3 class="team-subtitle">Михайло Єрмаков</h3>
-              <p lang="en" class="team-text">UI Designer</p>
+              <div class="team-container">
+                <h3 class="team-subtitle">Михайло Єрмаков</h3>
+                <p lang="en" class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -172,7 +179,7 @@
         >
         <address>
           <ul class="list">
-            <li>
+            <li class="adress-item">
               <a
                 href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                 target="_blank"
@@ -182,7 +189,7 @@
                 м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li>
+            <li class="adress-item">
               <a href="mailto:info@devstudio.com" class="second-link mail">info@devstudio.com</a>
             </li>
             <li>
